@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.logo-wide{
+    width: 300px;
+    aspect-ratio: 1.095;
+}
+
+.margin-50{
+    margin: 50px;
+}

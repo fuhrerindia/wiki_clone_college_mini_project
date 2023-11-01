@@ -1,0 +1,30 @@
+main h1{
+    font-weight: normal;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.search-box{
+    display: flex;
+    border: 1px solid #000;
+}
+.search-box input, .search-box select{
+    background-color: transparent;
+    border: 0;
+}
+.search-box input{
+    padding: 0px 25px;
+}
+.search-box button{
+    border: 0;
+    background-color: #36c;
+    color: #fff;
+    padding: 8px 16px;
+}
+.search-box select{
+    margin: 0 25px;
+}
