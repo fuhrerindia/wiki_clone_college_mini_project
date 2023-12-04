@@ -1,0 +1,28 @@
+aside{
+    width: 215px;
+}
+aside p{
+    width: 100%;
+    color: var(--grey);
+    border-bottom: 1px solid #ededed;
+    padding: 8px;
+    width: calc(100% - 16px);
+    margin-bottom: 5px;
+}
+aside ul{
+    margin-left: 10px;
+    list-style: none;
+}
+aside > ul:first-child{
+    margin-top: 10px;
+}
+aside ul li{
+    margin: 3px 0;
+}
+aside a{
+    text-decoration: none;
+    color: var(--link);
+}
+aside *{
+    font-family: sans-serif;
+}
