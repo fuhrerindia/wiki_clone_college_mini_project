@@ -1,0 +1,26 @@
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+footer{
+    border-top: 1px solid #666666;
+    padding: 20px 0;
+}
+footer p{
+    margin: 10px 20px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 14px;
+}
+footer ul{
+    margin-top: 15px;
+    width: 60vw;
+}
+footer *{
+    font-family: sans-serif;
+}
+footer p{
+    font-size: 14px;
+}

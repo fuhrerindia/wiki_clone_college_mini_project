@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/auth.css">
+</head>
+
+<body>
+    <iframe src="./widgets/header.html" class="header"></iframe>
+    <div class="single-child">
+        <main>
+            <h1>
+                Create Account
+            </h1>
+            <div class="auth-form">
+                <form>
+                    <label>Username</label>
+                    <input placeholder="Enter your username" type="text" name="" id="">
+                    <p>Your username is public and cannot be made private later.</p>
+                    <label>Password</label>
+                    <input placeholder="Enter your password" type="password">
+                    <p>
+                        It is recommended to use a unique password that you are not using on any other website.
+                    </p>
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="Re-write your password">
+                    <label>Email Address (Recommended)</label>
+                    <input type="email" placeholder="Enter your Email address" name="" id="">
+                    <p>
+                        Email is required to recover your account if you lose your password.
+                    </p>
+                    <div>
+                        <input type="checkbox">
+                        <label>Keep me logged in (for upto one year)</label>
+                    </div>
+                    <input type="submit" value="Create Account">
+                </form>
+                <div class="secondary-actions">
+                    <strong>Already have an account?</strong>
+                    <a href="./login.html">
+                        <button>Sigin to Wikipedia</button>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <iframe src="./widgets/footer.html" class="footer"></iframe>
+    <script src="./js/global.js"></script>
+</body>
+
+</html>

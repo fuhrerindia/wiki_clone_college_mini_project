@@ -7,6 +7,8 @@
     --black: #000000;
     --link: #3366cc;
     --grey: #404040;
+    --blue: #36c;
+    --silver: #ededed;
 }
 
 .header {
@@ -38,8 +40,9 @@ main {
 .selected {
     border-bottom: 1px solid var(--black);
 }
-.selected a{
-    color: var(--black)!important;
+
+.selected a {
+    color: var(--black) !important;
 }
 
 .navigation {
@@ -75,4 +78,14 @@ main h2 {
 main p {
     line-height: 23px;
     margin: 20px 0px;
+}
+
+.single-child {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    margin-bottom: 0;
 }

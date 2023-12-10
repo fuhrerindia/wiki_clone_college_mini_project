@@ -1,0 +1,29 @@
+.result {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid #aeaeae;
+    padding-bottom: 10px;
+}
+
+.result * {
+    margin: 0;
+}
+
+.result a {
+    font-size: 25px;
+}
+
+.result p {
+    margin: 5px 0;
+}
+
+.lead {
+    color: #404040
+}
+
+.result img {
+    height: 150px;
+    width: auto;
+    margin-right: 10px;
+}
